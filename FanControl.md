@@ -70,7 +70,7 @@ WantedBy=multi-user.target
     sudo systemctl enable fan_control
     sudo systemctl start fan_control
 ```
-7-1.確認服務是否運行
+## 7-1.確認服務是否運行
 ```
     sudo systemctl status fan_control
     (如果看到 "active (running)"，就代表風扇已經可以自動運作了！)
