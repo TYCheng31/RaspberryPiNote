@@ -1,5 +1,5 @@
-# RaspberryPiNote  
-RaspberryPi5 FanControl
+# RaspberryPi5 FanControl
+
 
 ## 1.建立自動風扇控制腳本
 ```
