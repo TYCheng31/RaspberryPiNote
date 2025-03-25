@@ -50,7 +50,7 @@ done
 ```
     sudo nano /etc/systemd/system/fan_control.service
 ```
-6. 貼上以下內容
+## 6. 貼上以下內容
 ```
 [Unit]
 Description=Raspberry Pi 5 Fan Control
