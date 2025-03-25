@@ -10,7 +10,7 @@ RaspberryPi5 FanControl
 #!/bin/bash
 
 # **設定風扇 PWM 控制路徑**
-FAN_PWM_PATH="/sys/class/hwmon/hwmon3/pwm1"  # 可能需要改 hwmon0 → hwmon1
+FAN_PWM_PATH="/sys/class/hwmon/hwmon3/pwm1"  
 
 # **溫度閾值（單位：毫攝氏度）**
 ON_TEMP=50000   # 50°C 開啟風扇
