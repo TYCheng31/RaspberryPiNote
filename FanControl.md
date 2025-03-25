@@ -3,7 +3,7 @@
 
 ## 1.建立自動風扇控制腳本
 ```
-    sudo nano /usr/local/bin/fan_control.sh
+sudo nano /usr/local/bin/fan_control.sh
 ```
 ## 2.貼上以下腳本
 ```
@@ -40,15 +40,15 @@ done
 ```
 ## 3. 設定腳本可執行
 ```
-    sudo chmod +x /usr/local/bin/fan_control.sh
+sudo chmod +x /usr/local/bin/fan_control.sh
 ```
 ## 4. 測試腳本
 ```
-    sudo /usr/local/bin/fan_control.sh
+sudo /usr/local/bin/fan_control.sh
 ```
 ## 5. 讓腳本開機自動運行
 ```
-    sudo nano /etc/systemd/system/fan_control.service
+sudo nano /etc/systemd/system/fan_control.service
 ```
 ## 6. 貼上以下內容
 ```
@@ -67,11 +67,11 @@ WantedBy=multi-user.target
 ```
 ## 7. 啟用並啟動服務
 ```
-    sudo systemctl enable fan_control
-    sudo systemctl start fan_control
+sudo systemctl enable fan_control
+sudo systemctl start fan_control
 ```
 ## 7-1.確認服務是否運行
 ```
-    sudo systemctl status fan_control
-    (如果看到 "active (running)"，就代表風扇已經可以自動運作了！)
+sudo systemctl status fan_control
+(如果看到 "active (running)"，就代表風扇已經可以自動運作了！)
 ```
